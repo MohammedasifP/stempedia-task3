@@ -1,0 +1,10 @@
+.inp{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.inp>input{
+    width: 500px;
+    height: 20px;
+}
