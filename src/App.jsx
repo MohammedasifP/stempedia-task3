@@ -107,8 +107,7 @@ const [turn,setTurn]=useState('X')
    }
   return (
     <div className="App" style={{ backgroundImage: "url(" + "https://img.freepik.com/free-vector/futuristic-technological-background_79603-1097.jpg?w=740&t=st=1654095917~exp=1654096517~hmac=7349e99b36d353a7ce6bcfb70bc4d9e2a9142e84a15e49bbd9c1fb4fc169dfc3" + ")", backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat'}}>
+    backgroundRepeat: 'no-repeat',backgroundSize: 'cover',height:"600px"}}>
          <div className='tic'>Tic Tac Toe</div>
          <div className='continer'>
          <div className='turn'>Turn:{turn} <button onClick={resetfun} className='btn'>restart</button></div>
